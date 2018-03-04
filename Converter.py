@@ -130,12 +130,9 @@ class Converter(object):
     def clear(self):
         for x in [self.output_coordinates.northing_string, self.output_coordinates.easting_string]:
             x.set('')
+            
+            
 if __name__ == '__main__':
     app = Converter()
 
 
-    # testing
-    # root = Tk()
-    # app1 = EPSG(root,'test')
-    # app2 = Coordinates(root,'test',0,1)
-    # root.mainloop()
